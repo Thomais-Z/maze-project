@@ -1,0 +1,15 @@
+{
+  "name": "maze",
+  "version": "1.0.0",
+  "description": "Maze game project from Udemy course: 'The Modern Javascript Bootcamp Course'",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Thomais Zafeiriou",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

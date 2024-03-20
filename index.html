@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a380d009e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      h1 {
+        color: white;
+        font-size: 70px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      .winner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .btn {
+        background-color: rgb(20, 21, 31);
+        border: none;
+        cursor: pointer;
+      }
+
+      .icon {
+        color: #ffffff;
+      }
+    </style>
+    <title>Maze</title>
+  </head>
+  <body>
+    <div class="winner hidden">
+      <h1>You Win!</h1>
+      <a href="#" class="btn">
+        <i class="icon fa-solid fa-rotate-right fa-2xl"></i>
+      </a>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
